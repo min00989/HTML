@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>join_form.html</title>
+</head>
+
+<body>
+  <h3>회원 가입 양식</h3>
+  <form action="">
+    <table>
+      <tr>
+        <td>- 아이디</td>
+        <td><input type="text" required></td>
+      </tr>
+      <tr>
+        <td>- 비밀번호</td>
+        <td><input type="password" name="pwd1" required></td>
+      </tr>
+      <tr>
+        <td>- 비밀번호 확인</td>
+        <td><input type="password" name="pwd2" required></td>
+      </tr>
+      <tr>
+        <td>- 이름</td>
+        <td><input type="text" required></td>
+      </tr>
+      <tr>
+        <td>- 성별</td>
+        <td><input type="radio" name="gender">여성 <input type="radio" name="gender">남성</td>
+      </tr>
+      <tr>
+        <td>- 전화번호</td>
+        <td>
+          <select id="telnumber">
+            <option value="tel_02" selected>02</option>
+            <option value="tel_031">031</option>
+            <option value="tel_033">033</option>
+            <option value="tel_053">053</option>
+            <option value="tel_062">062</option>
+          </select>
+          - <input type="tel">
+          - <input type="tel">
+        </td>
+      </tr>
+      <tr>
+        <td>- 이메일</td>
+        <td><input type="text" required> @
+          <select id="umail">
+            <option value="선택" selected>선택</option>
+            <option value="naver">naver.com</option>
+            <option value="nate">nate.com</option>
+            <option value="gmail">gmail.com</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>- 자기소개</td>
+        <td> <textarea cols="40" rows="4"></textarea></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
