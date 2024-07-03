@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>scope</title>
+</head>
+<body>
+  <h1>콘솔을 확인하세요.</h1>
+  <script>
+    function addNumber() {
+      var sum = 10 + 20;
+      multi = 10 * 20;
+    }
+    addNumber();
+    // conole.log(multi);
+
+    for(var i = 0; i < 5; i++) {
+      multi += i;
+    }
+
+    // console.log(i); // let 범위 for, if 블럭 안으로 안정 
+  </script>
+</body>
+</html>
