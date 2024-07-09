@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 const flagBlue = document.querySelector(".flag-blue");
 const flagWhite = document.querySelector(".flag-white");
 
@@ -25,3 +26,6 @@ document.addEventListener('contextmenu', function(event) {
 });
 
 document.addEventListener("mousedown", flagUp);
+
+});
+
